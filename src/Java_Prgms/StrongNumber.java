@@ -1,3 +1,4 @@
+
 package Java_Prgms;
 
 public class StrongNumber {

@@ -1,8 +1,9 @@
 package String;
 
-public class ReverseString {
+public class ReverseWord {
 
 	public static void main(String[] args) {
+//HERE WE ARE USING THIRD VARIABLE
 		String s = "Rahul";
 		String rev = "";
 		char[] s2 = s.toCharArray();
@@ -11,5 +12,11 @@ public class ReverseString {
 		}
 		System.out.println(rev);
 	}
-
+/**WITHOUT USING THIRD VARIABLE
+ * String s = "INDIA";
+ * for(int i=s.length()-1;i>=0;i--)
+ * {
+ * 		syso(s.charAt(i));
+ * }
+ */
 }

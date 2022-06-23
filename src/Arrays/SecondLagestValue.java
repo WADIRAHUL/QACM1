@@ -15,6 +15,7 @@ public class SecondLagestValue {
 					a[j]=temp;
 				}
 			}
+			System.out.print(a[i]+" ");
 		}	
 		System.out.println("Maximum value in the given array is: " + a[1]);
 

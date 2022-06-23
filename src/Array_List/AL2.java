@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class AL2 {
 
 	public static void main(String[] args) {
-		ArrayList ls=new ArrayList();
+		ArrayList<Object> ls=new ArrayList<Object>();
 		ls.add(10);
 		ls.add(20);
 		ls.add(40);

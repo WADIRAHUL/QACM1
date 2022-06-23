@@ -19,7 +19,7 @@ public class DuplicateCharacters {
            }  
            //A character is considered as duplicate if count is greater than 1  
            if(count > 1) 
-               System.out.println(string[i]);  
+               System.out.print(string[i]);  
        }  
    }  
 }  
