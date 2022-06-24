@@ -19,7 +19,5 @@ public class SecondSmallestValue {
 		}	
 		System.out.println("Minimum element in the given array is: "+ a[1]);
 	}
-
-
 }
 
