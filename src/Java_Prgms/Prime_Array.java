@@ -8,7 +8,7 @@ public class Prime_Array {
 		for(int i=0; i<a.length; i++)
 		{
 			int num = a[i], count=0;
-			for(int j=2; j<num; j++) 
+			for(int j=2; j<num/2; j++) 
 			{
 				if (num%j==0) {
 					count++;
