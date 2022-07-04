@@ -12,6 +12,5 @@ public class Fibonaci {
 			num1=num2;
 			num2=sum;
 		}
-		
 	}
 }

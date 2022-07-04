@@ -10,7 +10,7 @@ public class SortInAscendingOrder {
 		{
 			for (int j=i+1; j<a.length;j++)
 			{
-				if (a[i]<a[j])// condition for ascending Order
+				if (a[i]>a[j])// condition for ascending Order
 				{
 					int temp =a[i];
 					a[i]=a[j];

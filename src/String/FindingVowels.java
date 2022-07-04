@@ -2,16 +2,14 @@ package String;
 
 public class FindingVowels {
 	public static void main(String args[]) {
-
-		String str = "Hi Welcome to Selenium";
-		int count=0;
+		String s = "INDIA";
+		String str = s.toLowerCase();
 		for(int i=0; i<str.length(); i++) {
-			if(str.charAt(i) == 'a'|| str.charAt(i) == 'e'|| str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
-				//System.out.println("Given string contains "+str.charAt(i)+" at the index "+i);
-				count++;
+			char ch = str.charAt(i);
+			if(ch =='a'|| ch =='e'|| ch =='i' || ch =='o' || ch =='u') {
+				System.out.println(ch);
 			}
 		}
-		System.out.println("Total Vowels Present are: "+count);
 	}
 }
 
