@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SumOfFirstTwoSmallestValue {
+public class BubbleSortSumOfFirstTwoSmallestValue {
 	public static void main(String[] args) {
 		int sum = 0;
 		int a[]= {4,7,1,2,0,8,5,3,6,9};

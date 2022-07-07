@@ -1,8 +1,8 @@
 package Arrays;
 
-public class SecondLagestValue {
-
+public class BubbleSortSumofFirstTwoLargestValue {
 	public static void main(String[] args) {
+		int sum = 0;
 		int a[]= {4,7,1,2,0,8,5,3,6,9};
 		for (int i=0;i<a.length;i++)
 		{
@@ -15,10 +15,13 @@ public class SecondLagestValue {
 					a[j]=temp;
 				}
 			}
-			System.out.print(a[i]+" ");
-		}	
-		System.out.println("Maximum value in the given array is: " + a[1]);
+		}
+		for(int i=0; i<2; i++) {
+			sum = sum+a[i];
+			System.out.println("The Two Largest Value:" + a[i]); 
+		}
 
+		System.out.println("The Sum of the First Two Largest value: " + sum);
 	}
 }
 

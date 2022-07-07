@@ -1,25 +1,23 @@
 package Arrays;
 
-
-//sort all the elements in descending order
-public class SortInAscendingOrder {
+public class BubbleSortSecondSmallestValue {
 
 	public static void main(String[] args) {
-		int a[]= {30, 20, 10, 50, 40};
+		int a[]= {4,7,1,2,0,8,5,3,6,9};
+
 		for (int i=0;i<a.length;i++)
 		{
 			for (int j=i+1; j<a.length;j++)
 			{
-				if (a[i]>a[j])// condition for ascending Order
+				if (a[i]>a[j])
 				{
 					int temp =a[i];
 					a[i]=a[j];
 					a[j]=temp;
 				}
 			}
-		System.out.print(a[i]+" ");
-		}
+		}	
+		System.out.println("Minimum element in the given array is: "+ a[1]);
 	}
-
 }
 

@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SortInDescendingOrder {
+public class BubbleSortInDescendingOrder {
 	public static void main(String[] args) {
 		int[] a = {40, 50, 10, 20, 30};
 		for(int i=0; i<a.length; i++) 

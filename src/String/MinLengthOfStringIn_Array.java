@@ -1,4 +1,4 @@
-package Arrays;
+package String;
 
 public class MinLengthOfStringIn_Array {
 	public static void main(String[] args) {
