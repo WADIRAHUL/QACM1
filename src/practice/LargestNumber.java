@@ -6,6 +6,7 @@ public class LargestNumber {
 
 	public static void main(String[] args) {
 		int x, y, z;
+		//TAKE 3 NUMBERS
 		Scanner s = new Scanner(System.in);
 		System.out.print("Enter the first number:");
 		x = s.nextInt();
