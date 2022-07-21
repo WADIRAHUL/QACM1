@@ -4,7 +4,7 @@ public class Swap_Numbers {
 
 	public static void main(String[] args) {
 		int []a = {10,20,30,40,50};
-		for(int i=0; i<2; i++)
+		for(int i=0; i<3; i++)
 		{
 			int temp = a[0];
 			for(int j=1;j<a.length;j++)
